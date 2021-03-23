@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PROJECT</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+
+		.container {
+			text-align: center;
+			padding-top: 2rem;
+		}
+
+		.container__title {
+			margin: 1rem;
+		}
+
+		.form__input {
+			padding: 5px 20px;
+		}
+
+		.form__button {
+			padding: 7px 10px;
+			background: #482;
+			color: #fff;
+			border: none;
+			cursor: pointer;
+		}
+
+		.form__button:hover {
+			background: #280;
+		}
+
+		.form__button:focus {
+			background: #593;
+			border: none;
+			outline: none;
+		}
+
+		#result {
+			margin: 20px;
+			font-size: 30px;
+			text-align: center;
+		}
+
+		.result__span {
+			color: #482;
+			font-weight: 700;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="container__title">
+			<h1>Let's check the number of vowels and consonants</h1>
+		</div>
+		<div>
+			<form autocomplete="off">
+				<input  type="text" placeholder="Insert a word" id="input" class="form__input">
+				<button type="button" class="form__button" id="subButton">Check</button>
+			</form>
+		</div>
+			
+	</div>
+
+	<div id="result">
+		
+	</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
